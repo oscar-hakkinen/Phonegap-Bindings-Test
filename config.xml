@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "mob.app.dev.file"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>PhoneGap File SystemExample</name>
+
+    <description>
+        An example application. 
+    </description>
+
+    <author href="https://build.phonegap.com" email="c.bowers@worc.ac.uk">
+        C.Bowers
+    </author>
+	
+        
+    <plugin name="cordova-plugin-file" version="4"/>
+        
+    <preference name="AndroidPersistentFileLocation" value="Internal" />
+    <preference name="iosPersistentFileLocation" value="Library" />
+        
+</widget>
